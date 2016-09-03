@@ -4,7 +4,7 @@ body, html {
 
 #welcome {
 	height: 100%;
-	background-image: url("https://media1.britannica.com/eb-media/42/95642-004-D6B2D947.jpg");
+	background-image: url("welcome.jpg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@ body, html {
 
 #summary {
 	height: 100%;
-	background-image: url("http://www.llamalove.com/images/llamalineup2a.jpg");
+	background-image: url("llamaherd.jpg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body, html {
 
 #facts {
 	height: 100%;
-	background-image: url("https://www.charitychallenge.com/images/library/Charity-Trek-to-Machu-Picchu5_1.jpg");
+	background-image: url("machullama.jpg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body, html {
 
 #about {
 	height: 100%;
-	background-image: url("http://d14dsi4x2zx6ql.cloudfront.net/files/styles/welcome_image/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=o7dZFybo");
+	background-image: url("sdskyline.jpg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
