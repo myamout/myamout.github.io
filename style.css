@@ -9,6 +9,26 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+	font-size: 400%;
+	font-weight: 0.5;
+	letter-spacing: 0.3;
+}
+
+.subtitle {
+	font-size: 300%;
+	font-weight: 0.3;
+	letter-spacing: 0.2;
+}
+
+.welcome-page-p {
+	font-size: 300%;
+	font-weight: 0.5;
+	letter-spacing: 0.3;
+	margin-bottom: 10%;
 }
 
 #summary {
