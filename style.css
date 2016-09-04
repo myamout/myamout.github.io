@@ -11,3 +11,18 @@
 	border-color: transparent;
 	border-radius: 0px;
 }
+
+.jumbotron {
+	color: snow;
+	margin-bottom: 0px;
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+
+#home {
+	background: url("llamawelcome.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+}
