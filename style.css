@@ -1,3 +1,13 @@
 .container-fluid {
 	max-width: 1400px;
 }
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+	background-color: #483D8B;
+	border-color: transparent;
+	border-radius: 0px;
+}
