@@ -3,7 +3,7 @@ body, html {
 }
 
 #welcome {
-	height: 50%;
+	height: 100%;
 	background-color: #36648B;
 	background-attachment: fixed;
     background-position: center;
@@ -22,6 +22,15 @@ body, html {
 
 #facts {
 	height: 100%;
+	background-color: black;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.facts1 {
+	height: 100%;
 	background-image: url("machullama.jpg");
 	background-attachment: fixed;
     background-position: center;
@@ -29,8 +38,26 @@ body, html {
     background-size: cover;
 }
 
+.facts2 {
+	height: 100%;
+	background-color: green;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.facts3 {
+	height: 100%;
+	background-color: black;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #adopt {
-	height: 75%;
+	height: 50%;
 	background-color: #483D8B;
 	background-attachment: fixed;
     background-position: center;
