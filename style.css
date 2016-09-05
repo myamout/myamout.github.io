@@ -1,24 +1,26 @@
-.navbar {
-	margin-bottom: 0px;
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 
-.navbar-default {
+.container-fluid {
+	max-width: 1400px;
+}
+
+.navbar {
+	margin-bottom: 0px;
 	background-color: #483D8B;
 	border-color: transparent;
 	border-radius: 0px;
 }
 
-.jumbotron {
+#home {
 	color: snow;
 	margin-bottom: 0px;
 	padding-top: 95px;
 	padding-bottom: 95px;
-}
-
-#home {
 	background: url("llamawelcome.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-attachment: fixed;
-	font-family: 'Roboto', sans-serif;
 }
