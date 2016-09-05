@@ -88,6 +88,7 @@ select {
 
 #summary {
 	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .summaryThumbnail {
@@ -118,7 +119,7 @@ select {
 }
 
 #about {
-	background: url("sdskyline.jpg");
+	background: url("sdsunset.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
