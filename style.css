@@ -91,6 +91,10 @@ select {
 	padding-bottom: 25px;
 }
 
+#summary p {
+	font-size: 15px;
+}
+
 .summaryThumbnail {
 	height: 65%;
 	width: 80%;
