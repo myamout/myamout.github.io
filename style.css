@@ -1,6 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 .container-fluid {
@@ -14,21 +14,22 @@ body {
 	border-radius: 0px;
 }
 
-.jumbotron {
-	margin-bottom: 0px;
-	height: 100%;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-
-.jumbotron h1, h3 {
-	text-align: center;
-	color: snow;
-}
-
 #home {
 	background: url("llamawelcome.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	color: snow;
+	text-align: center;
+	padding-top: 140px;
+	padding-bottom: 300px;
+}
+
+#summary {
+	padding-top: 25px;
+}
+
+.summaryThumbnail {
+	height: 65%;
+	width: 80%;
 }
