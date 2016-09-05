@@ -8,8 +8,7 @@
 		$scope.personalities = ['Athlete', 'Artist', 'Adventurer', 'Teenager', 'Comedian', 'Engineer'];
 
 		$scope.captureName = () => {
-			console.log($scope.llamaName);
-			console.log($scope.personality);
+			alert($scope.llammaName.concat(' ').concat($scope.personality));
 		};
 		$scope.clear = () => {
 			$scope.llamaName = '';
