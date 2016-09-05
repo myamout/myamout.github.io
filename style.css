@@ -14,13 +14,20 @@ body {
 	border-radius: 0px;
 }
 
-#home {
-	color: snow;
+.jumbotron {
 	margin-bottom: 0px;
 	padding-top: 95px;
 	padding-bottom: 95px;
+	color: snow;
+}
+
+.jumbotron h1, h3 {
+	text-align: center;
+}
+
+#home {
 	background: url("llamawelcome.jpg");
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-attachment: fixed;
 }
