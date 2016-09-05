@@ -22,7 +22,7 @@
 #home {
 	background: url("llamawelcome.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-attachment: fixed;
 	font-family: 'Roboto', sans-serif;
 }
