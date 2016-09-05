@@ -35,17 +35,15 @@ select {
 	margin-left: 35px;
 }
 
-.youtubeVideo {
+/*
+	These three classes below are simple filler classes that are filled in by media queries depending on the screen
+	size of the device the user is using to view the site
+*/
+.youtubeVideo {}
 
-}
+.displayGame {}
 
-.displayGame {
-	/* This classes are simply fillers to determine if a mobile browser is being used and to hide a particular div*/
-}
-
-.displayWarning {
-
-}
+.displayWarning {}
 
 #game small {
 	margin-left: 25px;
@@ -68,15 +66,8 @@ select {
 	color: snow !important;
 }
 
-.footer {
-	background: #34495e;
-	color: snow !important;
-	text-align: center;
-	padding: 25px;
-}
-
 #home {
-	background: url("llamawelcome.jpg");
+	background: url("images/llamawelcome.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -101,7 +92,7 @@ select {
 }
 
 #facts {
-	background: url("llamaherd.jpg");
+	background: url("images/llamaherd.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -128,7 +119,7 @@ select {
 }
 
 #about {
-	background: url("sdsunset.jpg");
+	background: url("images/ssdsunset.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
