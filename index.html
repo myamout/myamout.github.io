@@ -133,9 +133,26 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<button class="btn btn-primary" ng-click="test()">
-					Click Me!
-				</button>
+				<p>
+					<h3>Description</h3>
+					On this tile you can adopt your on Llama!
+					Simply select which type of llama personality 
+					suits your household, given your new friend a name,
+					and then you will see a picture of your llama with a short
+					bio!
+				</p>
+			</div>
+			<div class="col-md-4">
+				<h3>Llama Personalities</h3>
+				<select ng-options="personality for personality in personalities" ng-model="personality"></select>
+			</div>
+			<div class="col-md-4">
+				<h3>Name</h3>
+				<input autocomplete="off" type="text" name="name" class="form-control" placeholder="Enter In Your Llama's Name"
+					ng-model="llamaName" value="llamaName"></input> 
+				<br>
+				<button type="button" class="btn btn-primary btn-lg" ng-click="captureName()">Adopt</button>
+				<button type="button" class="btn btn-secondary btn-lg" ng-click="clear()">Reset</button>
 			</div>
 		</div>
 	</div>
