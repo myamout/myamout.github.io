@@ -114,8 +114,12 @@ select {
 }
 #game input {
 	height: 50px;
-	font-size: 20px;
+	font-size: 30px;
 	border: solid;
+}
+
+.llamaBios {
+	font-size: 30px;
 }
 
 #about {
