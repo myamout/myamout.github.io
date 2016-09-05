@@ -4,11 +4,11 @@
 	<title>Llama Glama</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-<body>
+<body ng-app="LlamaGlama">
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -90,7 +90,7 @@
 						unlease their speed when the time is right. Video
 						evidence has been collected of llamas doing practice runs.
 						<br><br>
-						<iframe width="250" height="150" src="https://www.youtube.com/embed/0T8A38OHQMQ" frameborder="0" allowfullscreen></iframe>
+						<iframe width="450" height="250" src="https://www.youtube.com/embed/0T8A38OHQMQ" frameborder="0" allowfullscreen></iframe>
 					</p>
 				</div>
 				<div class="col-md-6">
@@ -126,10 +126,17 @@
 	</div>
 </div>
 
-<div id="game">
+<div id="game" ng-controller="LlamaGame">
 	<div class="container-fluid">
 		<div class="page-header">
 			<h2>Adopt A Llama</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<button class="btn btn-primary" ng-click="test()">
+					Click Me!
+				</button>
+			</div>
 		</div>
 	</div>
 </div>
@@ -182,9 +189,11 @@
 		</div>
 	</div>
 </div>
-
-<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="llamaglama.js"></script>
+
 </html>
