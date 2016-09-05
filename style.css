@@ -19,7 +19,7 @@
 	padding-bottom: 95px;
 }
 
-.test {
+#home {
 	background: url("llamawelcome.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
