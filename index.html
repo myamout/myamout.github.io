@@ -17,15 +17,15 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="#" class="navbar-brand">Llama Glama</a>
+			<a data-scroll href="#" class="navbar-brand">Llama Glama</a>
 		</div>
 		<div class="collapse navbar-collapse" id="siteNav">
 			<ul class="nav navbar-nav">
-				<li><a href="#home">Welcome</a></li>
-				<li><a href="#summary">Summary Of Llamas</a></li>
-				<li><a href="#facts">Interesting Llama Facts</a></li>
-				<li><a href="#game">Adopt A Llama</a></li>
-				<li><a href="#about">About Me</a></li>
+				<li><a data-scroll href="#home">Welcome</a></li>
+				<li><a data-scroll href="#summary">Summary Of Llamas</a></li>
+				<li><a data-scroll href="#facts">Interesting Llama Facts</a></li>
+				<li><a data-scroll href="#game">Adopt A Llama</a></li>
+				<li><a data-scroll href="#about">About Me</a></li>
 			</ul>
 		</div>
 	</div>
@@ -338,6 +338,7 @@
 		</div>
 	</div>
 </div>
+
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
@@ -345,6 +346,13 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular-route.min.js"></script>
 <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="smooth-scroll.min.js"></script>
+<script type="text/javascript">
+	smoothScroll.init({
+		easing: 'Linear',
+		speed: 1000
+	});
+</script>
 <script type="text/javascript" src="llamaglama.js"></script>
 
 </html>

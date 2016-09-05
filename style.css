@@ -109,6 +109,7 @@ select {
 
 #game {
 	padding-bottom: 25px;
+	padding-top: 25px;
 }
 #game input {
 	height: 50px;
