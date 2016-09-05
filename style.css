@@ -14,6 +14,10 @@ select {
 	.displayGame {
 		display: none;
 	}
+	.youtubeVideo {
+		width: 350px;
+		height: 150px;
+	}
 }
 
 @media only screen and (min-width: 769px) {
@@ -27,8 +31,13 @@ select {
 	margin-left: 35px;
 }
 
-.displayGame {
+.youtubeVideo {
+	width: 550px;
+	height: 350px;
+}
 
+.displayGame {
+	/* This classes are simply fillers to determine if a mobile browser is being used and to hide a particular div*/
 }
 
 .displayWarning {
