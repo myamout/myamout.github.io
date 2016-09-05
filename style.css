@@ -111,15 +111,16 @@ select {
 #game {
 	padding-bottom: 25px;
 	padding-top: 25px;
+	font-size: 20px;
+}
+
+#game h2 {
+	font-size: 30px;
 }
 #game input {
 	height: 50px;
-	font-size: 30px;
+	font-size: 20px;
 	border: solid;
-}
-
-.llamaBios {
-	font-size: 30px;
 }
 
 #about {
