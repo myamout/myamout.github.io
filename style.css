@@ -3,8 +3,26 @@ body {
 	font-weight: 700;
 }
 
+#about small {
+	color: snow !important;
+	margin-left: 35px;
+}
+
 .container-fluid {
 	max-width: 1400px;
+}
+
+.navbar {
+	background: #34495e;
+	border-color: transparent;
+}
+
+.navbar-nav>li>a {
+	color: snow !important;
+}
+
+.navbar-header a {
+	color: snow !important;
 }
 
 #home {
