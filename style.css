@@ -15,6 +15,10 @@ select {
 	margin-left: 35px;
 }
 
+#game small {
+	margin-left: 25px;
+}
+
 .container-fluid {
 	max-width: 1400px;
 }
