@@ -1,4 +1,3 @@
-"use strict";
 (() => {
 
 	//Create the angular app here
