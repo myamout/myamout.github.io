@@ -1,4 +1,6 @@
 (() => {
+
+	"use strict";
 	//Create the angular app here
 	const app = angular.module('LlamaGlama', []);
 
