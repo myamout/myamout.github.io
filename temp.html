@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Llama Glama</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body ng-app="LlamaGlama">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#siteNav">  
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a data-scroll href="#" class="navbar-brand">Llama Glama</a>
+			</div>
+			<div class="collapse navbar-collapse" id="siteNav">
+				<ul class="nav navbar-nav">
+					<li><a data-scroll href="#home">Welcome</a></li>
+					<li><a data-scroll href="#summary">Summary Of Llamas</a></li>
+					<li><a data-scroll href="#facts">Interesting Llama Facts</a></li>
+					<li><a data-scroll href="#game">Adopt A Llama</a></li>
+					<li><a data-scroll href="#about">About Me</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron" id="home">
+		<div class="container-fluid">
+			<h1>Welcome to Llama Glama</h1>
+			<h3>the website powered by llamas</h3>
+		</div>
+	</div>
+
+	<div id="summary">
+		<div class="container-fluid">
+			<div class="page-header">
+				<h2> Llamas <small>the majestic animal of South America</small></h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<p>
+						The llama is a relative of the camel that calls the Andes Mountains home.
+						Our great furry friends were domesticated by the native population in South America
+						due to their ability to carry large loads of supplies while navigating the rocky mountain
+						terrain. Llamas can carry up to 75 pounds whilst traveling 20 miles a day!
+						<br><br><br>
+						<img src="css/images/southamerica.jpg" class="summaryThumbnail" alt="Map Of South America">
+					</p>
+				</div>
+				<div class="col-md-4">
+					<p>
+						Llamas are strictly herbivores, eating mainly grass. Like their camel cousins, llamas can survive 
+						off of a large variety of plants and can go for long periods without water. These traits help them 
+						adapt to the mountain environment they live in. 
+						<br><br><br>
+						<img src="css/images/llamaeating.jpg" class="summaryThumbnail" alt="Llama Eating Grass">
+					</p>
+				</div>
+				<div class="col-md-4">
+					<p>
+						Despite being domesticated as a mode of transporting goods, llamas are most certainly not all work and 
+						no play! Llamas have been known to refuse to move if the load on their backs is too heavy! If unhappy with their workload they will simply flop on the ground and lay there until the load is lightened. Make sure you treat your llama right as they helped pave the way for the great South American civilizations. Llama power has indeed moved mountains!
+						<br><br><br>
+						<img src="css/images/llamalaying.jpg" class="summaryThumbnail" alt="Llama Laying On Ground">
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="facts">
+		<div class="container-fluid">
+			<div class="page-header">
+				<h2>Interesting Llama Facts</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p>
+						<h3>Llamas can run up to 35 mph</h3>
+							Though it may not look like it at first,
+							llamas can run extremely quickly! It's been
+							theorized that our furry friends lie in wait and 
+							unleash their speed when the time is right. Video
+							evidence has been collected of llamas doing practice runs.
+							<br><br>
+							<iframe class="youtubeVideo" src="https://www.youtube.com/embed/0T8A38OHQMQ" frameborder="0" allowfullscreen></iframe>
+					</p>
+				</div>
+				<div class="col-md-6">
+					<p>
+						<h3>The scientific name for llama is <i>Lama glama</i></h3>
+						This fact may shed some light on the name of website, but yes
+						the scientific classification for llama is <i>Lama glama</i>! All llamas are indeed glamorous. When alone most llamas are busy working on their hairstyles between bites of grass!
+						<br><br>
+						<img src="css/images/glamllama.jpg" class="summaryThumbnail" alt="Stylish Llama">
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p>
+						<h3>Humming is a common way llamas communicate with one another</h3>
+						Llamas are great musicians: it seems that the most popular way they "talk" 
+						to each other is through humming. Watch out, that next big hit might just feature a llama!
+					</p>
+				</div>
+				<div class="col-md-6">
+					<p>
+						<h3>Llamas are very intelligent and can be trained</h3>
+						What's that? Llamas can be trained? Move over Fido because man just found a new best friend.
+						Llamas are extremely smart and are able to learn things quickly as well as communicate effectively with each other in the herd. Our majestic friend is the perfect sidekick to have by your side when you are trying to survive the latest robot uprising. Imagine trekking across the land on your own llama combating robots in epic battles and ripping out circuit boards. Hmm SciFi should pick this up...Or Adult Swim that would work too.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="game" ng-controller="LlamaGame">
+		<div class="container-fluid displayGame">
+			<div class="page-header">
+				<h2>Adopt A Llama</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<p>
+						<h3>Description</h3>
+						On this tile you can adopt your own Llama!
+						Simply select which type of llama personality 
+						suits your household, give your new friend a name,
+						and then you will see a picture of your llama with a short
+						bio!
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Llama Personalities</h3>
+					<select ng-options="personality for personality in personalities" ng-model="personality"></select>
+				</div>
+				<div class="col-md-4">
+					<h3>Name</h3>
+					<input autocomplete="off" type="text" name="name" class="form-control" placeholder="Enter In Your Llama's Name" ng-model="llamaName"></input> 
+					<br>
+					<button type="button" class="btn btn-primary btn-lg" ng-click="captureName()">Adopt</button>
+					<button type="button" class="btn btn-secondary btn-lg" ng-click="clear()">Reset</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+				
+					<div ng-show="athlete">
+						<p>
+							<h3>{{llamaName}} <small>The Athlete</small></h3>
+							From a young age everyone across the land knew that
+							{{llamaName}} would go on to become a world renowned South American athlete. 
+							 After training with the great Incan warriors from a young age, {{llamaName}} leaped onto the
+							sporting scene and quickly became a star. Now getting up there in years, {{llamaName}} needs a caring family that will also show support in {{llamaName}}'s pick-up games at the park every now and then. Showing some wear and tear from the Big Leagues, {{llamaName}} is just looking to 
+							settle down now.
+						</p>
+					</div>
+
+					<div ng-show="artist">
+						<p>
+							<h3>{{llamaName}}<small>The Artist</small></h3>
+							{{llamaName}} has spent a lifetime traveling the world enjoying and collecting the finest
+							pieces of art. Having a collection ranging from English tapestries, Greek pots, and even Egyptian
+							carvings, {{llamaName}} has seen it all and one could say has it all
+							as well. Now with enough loot for even the most greedy of pirates, 
+							{{llamaName}} is looking for a new home in an attempt to have a quiet life.
+							{{llamaName}} wants to be able to classify and examine all of the pieces of
+							art in his/her collection, will you be able to help?
+						</p>
+					</div>
+
+					<div ng-show="adventurer">
+						<p>
+							<h3>{{llamaName}}<small>The Adventurer</small></h3>
+							Step aside Marco Polo, this llama was one for the history books!
+							{{llamaName}} was one of the greatest adventurers of all-time. {{llamaName}}
+							is the only llama to have ventured past the great deserts of Arabia in search
+							of the sweetest of grass and pastures. Traveling far and wide, {{llamaName}}
+							has learned a great deal of lessons and skills. It is said that {{llamaName}} brought back
+							the ancient ways of crafting tea from Asia to the Incan Empire. After many years of 
+							wandering, {{llamaName}} needs a home to rest in for a long while, are you up to the task?
+						</p>
+					</div>
+
+					<div ng-show="teenager">
+						<p>
+							<h3>{{llamaName}}<small>The Teenager</small></h3>
+							{{llamaName}} is the youngest of the bunch available for 
+							adoption here at Llama Glama. Happy to stay with any family that
+							can provide Wi-Fi, multiple outlets to charge a plethora of 
+							electronic devices, and a private room. Most of the time {{llamaName}}
+							will be in their room, unless the Bachelorette is on downstairs because
+							that is the greatest show on Earth. Expect some drama and hair pulling nights, but 
+							in the end it will all pay off as {{llamaName}} will blossom into a wonderful young
+							adult... At least that's what everyone says... 
+						</p>
+					</div>
+
+					<div ng-show="comedian">
+						<p>
+							<h3>{{llamaName}}<small>The Comedian</small></h3>
+							People liken {{llamaName}}'s comedic style to that of Will Ferrell.
+							Hoping to gain more of a local feel, {{llamaName}} strictly tours the 
+							Andes Mountains, visiting as many llama herds as possible in a calendar year.
+							Jokes touch on the llama's struggle as a pack animal or the 
+							crowd favorite "when the human thinks we aren't going to spit at them" joke. Now 
+							{{llamaName}} wants to spread the act to the llamas around the world. Hopefully
+							you will be able to house {{llamaName}} and, who knows, you might just hear a good joke
+							or two.
+						</p>
+					</div>
+
+					<div ng-show="engineer">
+						<p>
+							<h3>{{llamaName}}<small>The Engineer</small></h3>
+							{{llamaName}} was the chief llama engineer back in
+							the glory days of the great Incan empire. {{llamaName}} designed the greatest llama paddocks, as 
+							well as the best stone buildings the empire had seen. Since the collapse of the 
+							old Incan empire, {{llamaName}} has been traveling across the Andes lending a hand
+							to small herds of llamas in an attempt to improve their way of life. {{llamaName}}
+							is now looking to share a lifetime of wisdom with the llamas of petting zoos across the globe.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6" style="padding-top: 10px;">
+				
+					<div ng-show="athlete">
+						<img src="css/images/athletellama.jpg" class="summaryThumbnail" alt="LLama Athlete">
+						<h3>{{llamaName}} stares at the beyond in an attempt to clear the mind before the Andes Race</h3>
+					</div>
+
+					<div ng-show="artist">
+						<img src="css/images/artistllama.jpg" class="summaryThumbnail" alt="Llama Artist">
+						<h3>{{llamaName}} showing off the latest trend in llama hairstyles</h3>
+					</div>
+
+					<div ng-show="adventurer">
+						<img src="css/images/llamadesert.jpg" class="summaryThumbnail" alt="Llama wandering the desert">
+						<h3>{{llamaName}} wandering the Saharan desert in search of an oasis</h3>
+					</div>
+
+					<div ng-show="teenager">
+						<img src="css/images/teenagellama.jpg" class="summaryThumbnail" alt="Teenage Llama">
+						<h3>{{llamaName}} sporting the typical "get out of my room" look</h3>
+					</div>
+
+					<div ng-show="comedian">
+						<img src="css/images/comedianllama.jpg" class="summaryThumbnail" alt="Llama Comedian">
+						<h3>Crowds love {{llamaName}}'s latest joke</h3>
+					</div>
+
+					<div ng-show="engineer">
+						<img src="css/images/engineerllama.jpg" class="summaryThumbnail" alt="Llama Engineer">
+						<h3>{{llamaName}} posing with a building created long ago</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid displayWarning">
+			<div class="row">
+				<div class="col-md-6">
+					<p>
+						<h3>Looking to adopt a llama? <small>it's okay we know you were</small></h3>
+						Unfortunately the llama web developers behind Llama Glama only want humans to
+						adopt llamas using a desktop browser as it makes matching potential parents
+						with the best llama a breeze! So if you are looking to adopt, hop on over to your
+						laptop/desktop and adopt your furry friend!
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="about">
+		<div class="container-fluid">
+			<div class="page-header">
+				<h2>About the Author <small>Matthew Yamout</small></h2>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<p>
+						<h3><strong>Education</strong></h3>
+						Hi! My name is Matthew Yamout and I'm currently pursuing a Bachelor's of Science in Computer Science at 
+						San Diego State University. I have completed courses in: Data Structures/Algorithms, Programming Languages(mainly functional), and the university's Java courses. Last semester I took a position in the Computer Science Department as a teaching assistant for the introductory and intermediate
+						Java courses where I assist students inside our university's computer lab. I am able to help my peers by developing professional coding practices through mentoring and code walkthroughs. As I enter my junior year of school I'm excited for all of the opportunities the new year brings along with the chances I'll have to grow as a computer scientist and programmer!
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<p>
+						<h3><strong>Outside Of School</strong></h3>
+						Having been born and raised in sunny San Diego, I guess you could classify me as the stereotypical Californian. After classes you can catch me at the beach snacking on a California burrito. Unfortunately I do not "shred the gnar" (as my friends last summer in New York put it) as my surfing capabilities are not up to par for gnar shredding. I do spend a lot of time on the San Diego beaches, swimming and body surfing. When I'm not at the beach I can usually be found at my desk or in the library with my headphones on listening to the latest EDM track while I'm working on homework or coding up a small project of some sort. 
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8">
+					<p>
+						<h3><strong>Design Aspects Of Challenge Website</strong></h3>
+						As per the request of the challenge I utilized the Bootstrap framework to make the site responsive for devices of any screen size. Using Bootstrap also gave me access to many preset CSS classes which made formatting and making the website look pretty a snap! Lastly I wanted to make a single-page website and Bootstrap allowed me to do that very quickly. The JavaScript aspect of the page is used for the "Adopt A Llama" game. Inside the JavaScript file the code is quick and simple, taking the user input and then displaying the correct picture, bio, and user given name of the llama. I chose to use the AngularJS framework as it's perfect for single-page websites. The two way data-binding allowed me to easily develop the adoption process.
+
+						I'm excited to be a Front-End Developer right now as the web is going through some major changes as it solidifies itself as the number one place to do commercial business. In this day and age using a well designed and responsive website is much more appealing than having to drive and or walk into a retail store to purchase the same good. Web-apps are also gaining a considerable amount of leeway as cloud based applications are pushing to become the future. There is so much change going on right now on the web and I cannot wait to be at the forefront of it!
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<p>
+						<h3><strong>Contact Info</strong></h3>
+						<strong>Email: matthew.yamout@gmail.com</strong>
+						<br>
+						<strong>Mobile: (760) 274-7645</strong>
+						<br>
+						<strong>Github: https://github.com/myamout</strong>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="smooth-scroll.min.js"></script>
+<script type="text/javascript">
+	smoothScroll.init({
+		easing: 'Linear',
+		speed: 1000
+	});
+</script>
+<script type="text/javascript" src="js/app.js"></script>
+
+</html>
