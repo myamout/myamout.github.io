@@ -1,0 +1,130 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+select {
+	width: 300px;
+	height: 50px;
+	border: solid;
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+	.displayGame {
+		display: none;
+	}
+	.youtubeVideo {
+		width: 300px;
+		height: 150px;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	.displayWarning {
+		display: none;
+	}
+	.youtubeVideo {
+		width: 550px;
+		height: 350px;
+	}
+}
+
+#about small {
+	color: snow !important;
+	margin-left: 35px;
+}
+
+/*
+	These three classes below are simple filler classes that are filled in by media queries depending on the screen
+	size of the device the user is using to view the site
+*/
+.youtubeVideo {}
+
+.displayGame {}
+
+.displayWarning {}
+
+#game small {
+	margin-left: 25px;
+}
+
+.container-fluid {
+	max-width: 1400px;
+}
+
+.navbar {
+	background: #34495e;
+	border-color: transparent;
+}
+
+.navbar-nav>li>a {
+	color: snow !important;
+}
+
+.navbar-header a {
+	color: snow !important;
+}
+
+#home {
+	background: url("images/llamawelcome.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: snow;
+	text-align: center;
+	padding-top: 140px;
+	padding-bottom: 300px;
+}
+
+#summary {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#summary p {
+	font-size: 20px;
+}
+
+.summaryThumbnail {
+	height: 65%;
+	width: 80%;
+}
+
+#facts {
+	background: url("images/llamaherd.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 200px;
+	padding-top: 25px;
+	color: snow;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+#game {
+	padding-bottom: 25px;
+	padding-top: 25px;
+	font-size: 20px;
+}
+
+#game h2 {
+	font-size: 30px;
+}
+#game input {
+	height: 50px;
+	font-size: 20px;
+	border: solid;
+}
+
+#about {
+	background: url("images/sdsunset.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 25px;
+	color: snow;
+	font-weight: bolder;
+	font-size: 20px;
+}
