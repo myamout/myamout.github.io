@@ -1,0 +1,26 @@
+.navbar {
+	background: #34495e;
+	border-color: transparent;
+}
+
+.navbar-nav>li>a {
+	color: snow !important;
+}
+
+.navbar-header a {
+	color: snow !important;
+}
+
+.indent {
+	margin-left: 25px;
+}
+
+.pic_size {
+	height: 85%;
+	width: 85%;
+}
+
+.page-header {
+	color: snow;
+	background: #34495e;
+}

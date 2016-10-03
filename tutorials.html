@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSMSG Tuts</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/tuts.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#siteNav">  
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a data-scroll href="#" class="navbar-brand">CSMSG</a>
+			</div>
+			<div class="collapse navbar-collapse" id="siteNav">
+				<ul class="nav navbar-nav">
+					<li><a data-scroll href="#wsl">Setting Up Windows 10 Linux Subsystem (Aka Bash On Windows 10)</a></li>
+					<li><a data-scroll href="#git">Getting Started With Git</a></li>
+					<li><a data-scroll href="#frontend">Intro To Flask and Python</a></li>
+					<li><a data-scroll href="#setupide">Setting Up Your Environments</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="jumbotron" id="home">
+		<div class="container-fluid">
+			<h1>Tutorials For Computer Science Majors</h1>
+			<h3>getting you started with Git, Front-End Development, and Setting Up Your Development Environments</h3>
+		</div>
+	</div>
+	<div id="wsl">
+		<div class="container-fluid">
+			<div class="page-header">
+				<h2>Setting Up A Bash Terminal On Windows 10</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+				<h3 class="indent"><strong>Intro</strong></h3>
+					<p class="indent">
+						Having a bash terminal is why many software developers choose OS X or some
+						flavor of Linux, like Ubuntu, to use as their main software development machine.
+						A bash terminal allows for the use of package managers, easily navigating system,
+						files, and is used greatly in full-stack development when testing servers before
+						deploying the code into production. Windows has always lacked a bash terminal simply
+						because Windows is not Unix based. However, now on the latest update of Windows 10
+						Microsoft was added the ability to enable a bash terminal for users to use. Learning
+						how to use a bash terminal is a very useful skill in development and will give you
+						a major leg up in the job market. Since most tutorials on this site will take advantage
+						of the bash terminal I would like to go ahead and help anyone following along on a 
+						Windows machine setup the Windows Linux Subsystem. If you are using a Mac you already
+						have a bash terminal on your machine and if you are using a flavor of Linux then you
+						probably already know how to use the terminal!
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="indent"><strong>Updating To Windows 10</strong></h3>
+					<p class="indent">
+						Firstly we need to update to the latest version of Windows 10, the Anniversary Update.
+						To check if you need to update in the Cortana search bar along the bottom left of the taskbar
+						search "updates" and then click on the first app to show up. Now at the top of the page if
+						it says something along the lines of "your system is up to date" you are good to go! If there
+						is a system update waiting for you, the Anniversary Update's code is 1607, then update and
+						resart your computer.
+					</p>
+				</div>
+				<div class="col-md-6">
+					<img src="css/images/updates.JPG" class="pic_size">
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="indent"><strong>Enabling Windows Subsystem For Linux</strong></h3>
+					<p class="indent">
+						Now we need to enable the Windows Subsystem for Linux. To do this in the 
+						search bar again type in "features" and click on the first link. Scroll
+						down to the bottom and when you see "Windows Subsystem for Linux (Beta)"
+						check the box and press ok. Windows will prompt you with a resart. Resart your
+						computer and we are almost there!
+					</p>
+				</div>
+				<div class="col-md-6">
+					<img src="css/images/features.jpg" class="pic_size">
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="indent"><strong>Downloading And Installing Bash Terminal</strong></h3>
+					<p class="indent">
+						Finally we are going to search again "cmd" and click the first app to appear.
+						What we have opened is the Command Prompt, the Windows version of terminal.
+						In the window type in bash and hit enter. Windows will now install a bash 
+						terminal on your machine, just follow the instructions given to you during
+						the download. There are a lot of tutorials out there to help you pick up
+						the terminal commands, however I will just be covering the ones that are
+						necessary when needed. I do recommend the first command to run is
+						"sudo apt update" to update your terminal. To open your terminal again
+						search "bash" in the search bar and open the first app to appear. I also
+						recommend to pin this to your task bar as you will be using it a lot!
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="git">
+		<div class="container-fluid">
+			<div class="page-header">
+				<h2>Getting Started With GitHub and Git</h2>
+			</div>
+		<div class="row">
+			<div class="col-md-12">
+				<p class="indent">
+					Github is a website software developers use to share and work on code with each other.
+					Github is the most popular tool to host open-source projects for the computer science
+					community and is also the best source control tool as well. Github allows a code base to
+					be shared across an entire team of developers and gives each programmer the opprotunity
+					to be working on the project simultaneously. With each new commit to the Github repository
+					the team will be able to see exactly what their fellow team memember changed. How is this
+					possible? With Git of course! So on that note lets get started...
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div id="frontend">
+		<div class="container-fluid">
+			<div class="page-header">
+				<h2>Intro To Basic Full-Stack Development And The Flask Framework</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p class="indent">
+						Great full-stack developers are almost always in high demand and it's extremely easy to
+						get into. Full-stack development refers to the two main components of web based applications,
+						which are the backend and the frontend of the website. In a quick summary the frontend is 
+						what your user interacts with. For example, say you were browsing Kayak.com for flights to
+						Hawaii. The frontend would consist of the calender you use to create your trip window, choose
+						between flights, and enter in your payment information. The backend on the other hand is what
+						happens behind the scenes. Using the same example the backend is what handles your flight reservation
+						and stores the information in a database for the airline company. The backend of a web application
+						usually also hosts the frontend html, css, and javascript files. There are many popular backend frameworks
+						like Java Spring framework or simply put Node.js, however in this tutorial we will be using the Python
+						Flask framework. Flask is very simple to use and after this guide you should be able to have websites
+						up and running in no time! 
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="setupide">
+		<div class="container-fluid">
+			<div class="page-header">
+				<h2>Setting Up Your Development Environments</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p class="indent">
+						A programmer's best tool would easily be their integrated development environments, or IDEs.
+						IDEs have the capability to handle and complie multiple languages along with increasing
+						overall productivity through debugging tools and integrated build tools and git support.
+						Personally, I reccommend using IDEs when developing languages like Java, Scala, or C/C++.
+						With Java being the most popular language taught in universities this tutorial will be
+						focused on getting you up and running Java. On a side note you can find plug-ins to
+						support C/C++ development in an IDE, but the IDE we will be setting up here natively
+						supports Scala and Java. So lets get started with setting up Intellij!	
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

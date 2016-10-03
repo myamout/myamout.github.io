@@ -1,6 +1,22 @@
-body {
+html, body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+.navbar {
+	background: #34495e;
+	border-color: transparent;
+}
+
+.navbar-nav>li>a {
+	color: snow !important;
+}
+
+.navbar-header a {
+	color: snow !important;
 }
 
 #home {
@@ -9,7 +25,11 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	color: snow;
+	padding-top: 200px;
 	text-align: right;
-	padding-top: 50px;
-	padding-bottom: 300px;
+	min-height: 100%;
+}
+#home h1 {
+	font-size: 30px;
+	font-weight: bold;
 }
