@@ -1,11 +1,12 @@
 body {
-	background-color: #34495e;
-	color: snow;
+	background-color: snow;
+	color: black;
 }
 
 .jumbotron {
-	color: black;
+	color: snow;
 	text-align: center;
+	background-color: #34495e;
 }
 
 .navbar {
@@ -31,6 +32,6 @@ body {
 }
 
 .page-header {
-	color: snow;
-	background: #34495e;
+	color: black;
+	background-color: snow;
 }
