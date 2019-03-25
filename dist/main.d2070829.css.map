@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles/main.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"main.d2070829.css","sourceRoot":"..","sourcesContent":["a {\n    color: white;\n    text-decoration: none;\n}\n\n#navButton {\n    /* background: black;\n    color: white; */\n    letter-spacing: 0.2em;\n}"]}

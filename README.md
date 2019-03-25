@@ -1,3 +1,6 @@
-# myamout.github.io
+- Single Parallax page
 
-This website was created to serve as a guide for computer science to learn about the internship application process and pick up some quick intros to technologies like git and the Windows Subsystem Linux.
+- uikit with Lit-HTML and Vaadin router for Dev sharing website, Express Graphql on the backend
+
+- Add styling
+- Create javascript file for scripts
