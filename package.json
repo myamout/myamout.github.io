@@ -1,0 +1,28 @@
+{
+  "name": "wedding_site",
+  "version": "0.0.0",
+  "description": "wedding website for Matt and Ash wedding 2020",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myamout/myamout.github.io.git"
+  },
+  "author": "myamout",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myamout/myamout.github.io/issues"
+  },
+  "homepage": "https://github.com/myamout/myamout.github.io#readme",
+  "dependencies": {
+    "uikit": "^3.0.3",
+    "vivus": "^0.4.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.17.3"
+  }
+}
