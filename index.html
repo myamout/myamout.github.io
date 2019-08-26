@@ -13,16 +13,18 @@
 </head>
 <body>
     <div id="spinner" style="display: flex; align-items: center; justify-content: center; margin-top: 10%" uk-spinner="ratio: 3"></div>
-    <div id="mainContent" hidden uk-scrollspy="cls: uk-animation-slide-left; repeat: false; delay: 10">
+    <div id="mainContent" hidden uk-scrollspy="cls: uk-animation-slide-left; repeat: false; delay: 0">
         <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
             <nav id="navButton" class="uk-navbar-container" uk-navbar="mode: click" style="position: relative; z-index: 980;">
                 <div class="uk-navbar-left">
                     <ul class="uk-navbar-nav">
-                        <a class="uk-navbar-item uk-logo" href="#home">Matt And Ash 2020</a>
-                        <li><a href="#gettingThere" uk-scroll class="uk-button uk-button-text">Getting There</a></li>
+                        <a class="uk-navbar-item uk-logo" href="#home">Matt And Ashlin 2020</a>
                         <li><a href="#accomadations"uk-scroll class="uk-button uk-button-text">Accomadations</a></li>
+                        <li><a href="#gettingThere" uk-scroll class="uk-button uk-button-text">Getting There</a></li>
                         <li><a href="#registry" uk-scroll class="uk-button uk-button-text">Registry</a></li>
-                        <li><a href="#schedule" uk-scroll class="uk-button uk-button-text">Schedule</a></li>
+                        <li><a href="#schedule" uk-scroll class="uk-button uk-button-text">Wedding Details</a></li>
+                        <li><a href="#islandFavorites" uk-scroll class="uk-button uk-button-text">Island Favorites</a></li>
+                        <li><a href="#faq" uk-scroll class="uk-button uk-button-text">FAQ</a></li>
                     </ul>   
                 </div>
             </nav>
@@ -36,16 +38,28 @@
         
                 <div id="accomadations" class="uk-section uk-section-large uk-section-muted">
                     <div class="uk-container">
-                        <h3>Section Muted</h3>
                         <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
-                            <div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <div class="uk-height-small">
+                                <h3 class="uk-article-title">The Ritz-Carlton Kapalua</h3>
+                                <span class="uk-article-meta">1 Ritz Carlton Dr, Kapalua, HI 96761, USA</span>
+                                <p>Matt and Ashlin will be staying at this property a few days before and after the wedding</p>
+                                <a class="uk-button uk-button-secondary" target="_blank" href="http://www.ritzcarlton.com/en/hotels/kapalua-maui">Book Here</a>
                             </div>
-                            <div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <div class="uk-height-medium">
+                                <h3 class="uk-article-title">Honua Kai Resort & Spa</h3>
+                                <span class="uk-article-meta">130 Kai Malina Pkwy, Lahaina, HI 96761, USA</span>
+                                <p>On Kaanapali North Beach, Honua Kai Resort & Spa is about a ten minute drive south of the
+                                    Ritz-Carlton Kapalua property and a fifty minute drive from the airport. This resort is great
+                                    for families and groups as accomadations include full kitchens and appliances, laundry in unit,
+                                    and the option of one to four bedrooms.
+                                </p>
+                                <a class="uk-button uk-button-secondary" target="_blank" href="https://www.honuakai.com/">Book Here</a>
                             </div>
-                            <div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <div class="uk-height-small">
+                                <h3 class="uk-article-title">AirBnB</h3>
+                                <span class="uk-article-meta">Search around Lahaina, Kapalua, and Kaanapali</span>
+                                <p>AirBnB is also another option on the island for families and larger groups</p>
+                                <a class="uk-button uk-button-secondary" target="_blank" href="https://www.airbnb.com/s/Kapalua--HI/all?refinement_paths%5B%5D=%2Ffor_you&place_id=ChIJQ1iWYbbVqn4RhGNwecwhiXg">Book Here</a>
                             </div>
                         </div>
                     </div>
@@ -59,19 +73,21 @@
         
                 <div id="gettingThere" class="uk-section uk-section-medium uk-section-muted">
                     <div class="uk-container">
-                        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                        <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
                             <div>
                                 <article class="uk-article">
-                                    <h3 class="uk-article-title">Air Travel</h3>
-                                    <p class="uk-article-meta">Flying round trip to Maui</p>
+                                    <h3 class="uk-article-title">Kahului Airport</h3>
+                                    <p class="uk-article-meta">1 Keolani Pl, Kahului, HI 96732, USA</p>
                                     <p>
-                                        Due to the spike in competition over the last few years, flying
-                                        to Maui has become much more accessible. All of the major airlines
-                                        including: American, United, and Delta fly daily out of their major hubs.
-                                        Other airlines flying directly to Maui also include Alaskan and Hawaiian Airlines.
-                                        Recently, Southwest Airlines was approved by the FAA to start operating flights
-                                        to Hawaii flying direct from San Jose and Oakland. One of the easiest ways to
-                                        compare all flights is to use <a target="_blank" class="uk-link-text" href="https://www.google.com/flights?hl=en#flt=/m/02_286..2019-04-09*./m/02_286.2019-04-13;c:USD;e:1;ls:1w;sd:0;t:h">Google Flights</a>.
+                                        West Maui and the Ritz-Carlton is located about 35 miles (approximately 60 minutes by car) from the airport. Due to the distance and island time drivers we recommend staying in West Maui, specifically Kaanapali or Kapalua, if possible to be close to the festivities. 
+                                    </p>
+                                </article>
+                            </div>
+                            <div>
+                                <article class="uk-article">
+                                    <h3 class="uk-article-title">Navigating Maui</h3>
+                                    <p>
+                                        Rental cars are the easiest way to get around Maui. Uber, private drivers, and taxis are also available on the island. If you are a guest at the Ritz-Carlton, Kapalua Resort shuttle is available for transportation to nearby beaches, restaurants, shopping and golf courses within Kapalua Resort.
                                     </p>
                                 </article>
                             </div>
@@ -81,26 +97,102 @@
 
                 <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -900" style="background-image: url('images/hawaiiJetty.jpg');">
                     <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-                        Wedding Scedule
+                        Wedding Details
                     </h1>                
                 </div>
                 
                 <div id="schedule" class="uk-section uk-section-medium uk-section-muted">
                     <div class="uk-container">
-                        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                        <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
                             <div>
-                                <h3>Wedding Day: July 11th, 2020</h3>
-                                <table class="uk-table uk-table-striped"> 
-                                    <tbody>
-                                        <tr><td>5:45pm</td><td>Wedding Ceremony</td></tr>
-                                        <tr><td>6:15pm</td><td>Post Wedding Photos</td></tr>
-                                        <tr><td>6:45pm</td><td>Cocktail Reception</td></tr>
-                                        <tr><td>7:45pm</td><td>Dinner Service</td></tr>
-                                        <tr><td>9:10pm</td><td>Reception</td></tr>
-                                        <tr><td>10:00pm</td><td>Reception Completion</td></tr>
-                                    </tbody>
-                                </table>
-                                <span><i>Due to Hawaii noise curfew laws the reception must end at 10:00pm</i></span>
+                                <article class="uk-article">
+                                    <h3 class="uk-article-title">Aloha Party</h3>
+                                    <p>Bring out your best Hawaiian shirt and attire and join us for BBQ and shave ice from 3:00 PM - 6:00 PM. All wedding guests are invited to this event.</p>
+                                    <ul class="uk-list">
+                                        <li>Thursday, July 9, 2020</li>
+                                        <li>3:00 PM</li>
+                                        <li>Location TBD</li>
+                                    </ul>
+                                </article>
+                            </div>
+                            <div>
+                                <article class="uk-article">
+                                    <h3 class="uk-article-title">The Wedding</h3>
+                                    <p>Join us prior to sunset for the ceremony on the lawn overlooking the ocean. The ceremony will begin promptly at 5:15 PM, followed by a cocktail hour and dinner. The reception will officially end at 10:00 PM.</p>
+                                    <p class="uk-text-muted">This will be an "unplugged" ceremony, we have made sure to have incredible photographers and videographers to capture all the moments.</p>
+                                    <ul class="uk-list">
+                                        <li>Saturday, July 11, 2020</li>
+                                        <li>5:15 PM</li>
+                                        <li>
+                                            Beach Formal, see the attire section in FAQS
+                                        </li>
+                                        <li>Location: The Ritz-Carlton Kapalua</li>
+                                        <li>Ceremony: Oceanfront Napili Lawn</li>
+                                        <li>Reception: Anuenue Room</li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -900" style="background-image: url('images/welcome.jpg');">
+                    <h2 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+                        Island Favorites
+                    </h2>                
+                </div>
+                <div id="islandFavorites" class="uk-section uk-section-medium uk-section-muted">
+                    <div class="uk-container">
+                        <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                            <div>
+                                <h3 class="uk-article-title">Activities</h3>
+                                <ul class="uk-list uk-list-divider">
+                                    <li>Road to Hana</li>
+                                    <li>Ziplining: <a class="uk-link-text" href="https://www.zipline.com/kaanapali?utm_source=local&utm_medium=organic&utm_campaign=gmb-lah" target="_blank">Skyline Eco Adventures</a></li>
+                                    <li>Snorkeling Excursions: <a class="uk-link-text" target="_blank" href="https://mauisnorkeltours.com/">Maui Snorkel Tours</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="uk-article-title">Food</h3>
+                                <ul class="uk-list uk-list-divider">
+                                    <li><a class="uk-link-text" target="_blank" href="https://www.monkeypodkitchen.com/">MonkeyPod Kitchen, Ka'anapali: Whalers Village</a></li>
+                                    <li><a class="uk-link-text" target="_blank" href="https://www.ululanishawaiianshaveice.com/">Ululani’s Shave Ice, Lahaina: Front Street</a></li>
+                                    <li><a class="uk-link-text" target="_blank" href="https://www.dukesmaui.com/">Duke’s Hula Pie, Ka'anapali: In Honua Kai</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -900" style="background-image: url('images/blueSkyPalms.jpg');">
+                    <h2 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+                        FAQ
+                    </h2>                
+                </div>
+                <div id="faq" class="uk-section uk-section-medium uk-section-muted">
+                    <div class="uk-container">
+                        <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                            <div>
+                                <article class="uk-article">
+                                    <h3 class="uk-article-title">Attire</h3>
+                                    <p>
+                                        The wedding is a beach-formal event. The ceremony will take place on the lawn
+                                        overlooking the ocean. Men will be in slacks and a button down or a suit.
+                                        Ties are optional. Shorts, Hawaiian shirts, flip-flops are best suited for the Aloha
+                                        party. As the ceremony will be on grass, we recommend that women may want to opt for a
+                                        thicker heel or flat.
+                                    </p>
+                                </article>
+                            </div>
+                            <div>
+                                <article class="uk-article">
+                                    <h3 class="uk-article-title">Traveling with Others</h3>
+                                    <p>
+                                        While we know many of you will be brining your families and loved ones with you
+                                        to Maui, we ask that only those addressed on the formal invitation be in
+                                        attendance at all wedding events.
+                                    </p>
+                                </article>
                             </div>
                         </div>
                     </div>
