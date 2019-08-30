@@ -17,7 +17,7 @@
         <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
             <nav id="navButton" class="uk-navbar-container" uk-navbar="mode: click" style="position: relative; z-index: 980;">
                 <div class="uk-navbar-left">
-                    <ul class="uk-navbar-nav">
+                    <ul class="uk-navbar-nav uk-visible@s">
                         <a class="uk-navbar-item uk-logo" href="#home">Matt And Ashlin 2020</a>
                         <li><a href="#accomadations"uk-scroll class="uk-button uk-button-text">Accomadations</a></li>
                         <li><a href="#gettingThere" uk-scroll class="uk-button uk-button-text">Getting There</a></li>
@@ -25,9 +25,18 @@
                         <li><a href="#schedule" uk-scroll class="uk-button uk-button-text">Wedding Details</a></li>
                         <li><a href="#islandFavorites" uk-scroll class="uk-button uk-button-text">Island Favorites</a></li>
                         <li><a href="#faq" uk-scroll class="uk-button uk-button-text">FAQ</a></li>
-                    </ul>   
+                    </ul>
+                    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a> 
                 </div>
             </nav>
+        </div>
+        <div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav">
+                    <li><a href="#accomadations">Accomadations</a></li>
+                    <li><a href="#gettingThere">Getting There</a></li>
+                </ul>
+            </div>
         </div>
 
                 <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -900" style="background-image: url('images/welcome.jpg');">
@@ -79,7 +88,7 @@
                                     <h3 class="uk-article-title">Kahului Airport</h3>
                                     <p class="uk-article-meta">1 Keolani Pl, Kahului, HI 96732, USA</p>
                                     <p>
-                                        West Maui and the Ritz-Carlton is located about 35 miles (approximately 60 minutes by car) from the airport. Due to the distance and island time drivers we recommend staying in West Maui, specifically Kaanapali or Kapalua, if possible to be close to the festivities. 
+                                        West Maui and the Ritz-Carlton is located about 35 miles (approximately 60 minutes by car) from the airport. Due to the distance and island time drivers we recommend staying in West Maui, specifically Kaanapali or Kapalua. 
                                     </p>
                                 </article>
                             </div>
@@ -87,7 +96,7 @@
                                 <article class="uk-article">
                                     <h3 class="uk-article-title">Navigating Maui</h3>
                                     <p>
-                                        Rental cars are the easiest way to get around Maui. Uber, private drivers, and taxis are also available on the island. If you are a guest at the Ritz-Carlton, Kapalua Resort shuttle is available for transportation to nearby beaches, restaurants, shopping and golf courses within Kapalua Resort.
+                                        Rental cars are the easiest way to get around Maui. Uber, private drivers, and taxis are also available on the island. If you are a guest at the Ritz-Carlton, Kapalua Resort shuttle is available for transportation to nearby beaches, restaurants, shopping, and golf courses within Kapalua Resort.
                                     </p>
                                 </article>
                             </div>
