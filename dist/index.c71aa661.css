@@ -1,0 +1,16 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a[href^=tel] {
+    color: black;
+    text-decoration: none;
+}
+
+#navButton {
+    /* background: black;
+    color: white; */
+    letter-spacing: 0.2em;
+}
+/*# sourceMappingURL=index.c71aa661.css.map */
